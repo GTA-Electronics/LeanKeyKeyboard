@@ -15,8 +15,8 @@
             <meta-data android:name="intent" android:value="android.settings.INPUT_METHOD_SETTINGS"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/>
+                <!-- <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER"/> -->
             </intent-filter>
         </activity>
         <service android:label="@string/ime_service_name"
